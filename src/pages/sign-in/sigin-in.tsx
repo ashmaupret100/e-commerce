@@ -1,7 +1,10 @@
-import React from "react";
-
 function SignIn() {
-  return <div>SignIn</div>;
+  return (
+    <>
+      <input type="email" placeholder="Enter your Email" />
+      <input type="password" placeholder="Enter your Password" />
+    </>
+  );
 }
 
 export default SignIn;
